@@ -69,6 +69,5 @@ export function MoviesProvider({children}: MoviesProviderProps) {
 
 export function useMovies() {
     const context = useContext(MoviesContext);
-
     return context;
 }
